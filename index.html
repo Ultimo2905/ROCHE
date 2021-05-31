@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roche</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/myNormalizeNet.css">
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="img/roche.png" alt=""></a>
+    </header>
+    <section class="main_form">
+        <form action="" method="POST" id="target"></form>
+        <div class="container_form">
+            <div class="container_top">
+                <h1>Форма авторизации РОШ</h1>
+                <p>Пожалуйста, заполните форму ниже для доступа к электронным информационным ресурсам Рош, к порталу med.roche.ru и специализированным приложениям, использующим единую форму авторизации Рош. Завершив регистрацию, вы получите доступ к порталу,
+                    на котором собрана информация по диагностике, маршрутизации пациентов, о терапии и заболеваниях, реабилитации, а также, по вашему запросу, о новых молекулах, исследованиях и многое другое. Портал постоянно развивается и наполняется
+                    новыми материалами.
+                </p>
+            </div>
+        </div>
+        <div class="container_form">
+            <div class="title_info df_jc">
+                <p>Контактные данные</p>
+                <p>Заполните все поля</p>
+            </div>
+            <div class="select_information">
+                <div class="step  df_jc">
+                    <label class="email">E-mail</label>
+                    <input type="email" name="email" placeholder=" example@domian.com " required autocomplete="off">
+
+                </div>
+                <div class="error_input">
+                    <p>Такой пользователь уже зарегистрирован</p>
+                    <p>У вас уже есть учетная запись на портале <a href="med.roche.ru"> med.roche.ru</a>. Если вы забыли пароль, вы можете восстановить его по следующей <a href="#">ссылке</a>.
+                    </p>
+                </div>
+                <div class="step  df_jc">
+                    <label class="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" pattern="" placeholder="798512234567" required>
+
+                </div>
+                <div class="error_input">
+                    <p>Такой пользователь уже зарегистрирован</p>
+                    <p>У вас уже есть учетная запись на портале <a href="med.roche.ru"> med.roche.ru</a>. Если вы забыли пароль, вы можете восстановить его по следующей <a href="#">ссылке</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container_form">
+            <div class="title_info df_jc">
+                <p>Личная информация</p>
+                <p>Заполните все поля</p>
+            </div>
+            <div class="select_information">
+                <div class="step  df_jc">
+                    <label class="lastName">Фамилия</label>
+
+                    <input type="text" name="surname" placeholder="" required>
+
+                </div>
+                <div class="error_input">
+                    <p>Такой пользователь уже зарегистрирован</p>
+                    <p>У вас уже есть учетная запись на портале <a href="med.roche.ru"> med.roche.ru</a>. Если вы забыли пароль, вы можете восстановить его по следующей <a href="#">ссылке</a>.
+                    </p>
+                </div>
+                <div class="step  df_jc">
+                    <label class="firstname">Имя</label>
+
+                    <input type="text" name="firstname" placeholder="" required>
+
+                </div>
+                <div class="error_input">
+                    <p>Такой пользователь уже зарегистрирован</p>
+                    <p>У вас уже есть учетная запись на портале <a href="med.roche.ru"> med.roche.ru</a>. Если вы забыли пароль, вы можете восстановить его по следующей <a href="#">ссылке</a>.
+                    </p>
+                </div>
+                <div class="step  df_jc">
+                    <label class="patronymic">Отчество</label>
+                    <input type="text" name="patronymic" placeholder="" required>
+                    </label>
+                </div>
+                <div class="error_input">
+                    <p>Такой пользователь уже зарегистрирован</p>
+                    <p>У вас уже есть учетная запись на портале <a href="med.roche.ru"> med.roche.ru</a>. Если вы забыли пароль, вы можете восстановить его по следующей <a href="#">ссылке</a>.
+                    </p>
+                </div>
+                <div class="step  df_jc">
+                    <label for="cars">Специализация</label>
+                    <select name="Specialization" id="Specialization">
+                            <option value="1"></option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+        <div class="container_form">
+            <div class="title_info df_jc">
+                <p>Место работы</p>
+                <p>Заполните все поля</p>
+            </div>
+            <div class="select_information">
+                <div class="step  df_jc">
+                    <label for="cars">Название учреждения</label>
+                    <select name="Specialization" id="Specialization">
+                            <option value="1"></option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                </div>
+                <div class="step  df_jc">
+                    <label for="cars">Должность</label>
+                    <select name="Specialization" id="Specialization">
+                            <option value="1"></option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+        <div class="container_form">
+            <div class="title_info df_jc">
+                <p>Контактные данные</p>
+
+            </div>
+            <div class="select_information">
+                <div class="step  df_jc">
+                    <label class="lastName">Область</label>
+                    <input type="text" name="surcity" placeholder="" required>
+                </div>
+            </div>
+        </div>
+        <div class="container_form">
+            <div class="title_info df_jc">
+                <p>Адрес места работы</p>
+
+            </div>
+            <div class="select_information">
+                <div class="step  df_jc">
+                    <label class="lastName">Город</label>
+                    <input type="text" name="city" placeholder="" required>
+                </div>
+            </div>
+        </div>
+        <div class="container_form">
+            <div class="title_info df_jc">
+                <p>Адрес места работы</p>
+
+            </div>
+            <div class="select_information">
+                <div class="step  df_jc">
+                    <label class="lastName">Улица</label>
+                    <input type="text" name="street" placeholder="" required>
+                </div>
+            </div>
+        </div>
+        <div class="container_form">
+            <div class="title_info df_jc">
+                <p>Адрес места работы</p>
+
+            </div>
+            <div class="select_information">
+                <div class="step  df_jc">
+                    <label class="lastName">Дом</label>
+                    <input type="text" name="hous" placeholder="" required>
+                </div>
+            </div>
+        </div>
+        <div class="button_submit">
+            <button type="submit" value="Send" name="Send" id="submitButton">Продолжить</button>
+        </div>
+        <a href="#">*Отправить СМС с кодом еще раз</a>
+        </form>
+    </section>
+
+    <footer>
+        <div class="f_steps">
+            <div>
+                <a href="index.html">1_Step</a>
+            </div>
+            <div>
+                <a href="pages/pageReg.html">2_Step</a>
+            </div>
+            <div>
+                <a href="pages/confirmationRegistration.html">3_Step</a>
+            </div>
+            <div>
+                <a href="pages/thankRegistering.html">4_Step</a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

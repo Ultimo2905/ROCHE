@@ -1,0 +1,447 @@
+@font-face {
+    font-family: 'ImagoTTBoo';
+    src: url("../Fonts/ImagoTTBoo.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ImagoTTMed';
+    src: url("../Fonts/ImagoTTMed.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MinionCyr-Italic';
+    src: url("../Fonts/MinionCyr-Italic.otf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    background: #0066CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a {
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    height: 120px;
+    width: 100%;
+    background: #0066CC;
+}
+
+input {
+    padding-left: 14px;
+}
+
+input,
+select {
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+}
+
+label {
+    width: 100%;
+    max-width: 120px;
+    font-family: "ImagoTTBoo";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #093d72;
+}
+
+button {
+    border: none;
+}
+
+.container_top h1 {
+    font-family: "ImagoTTBoo";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: left;
+    color: #0066CC;
+}
+
+.container_top p {
+    font-family: "ImagoTTBoo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+    text-align: justify;
+}
+
+.title_info p:nth-child(1) {
+    font-family: "MinionCyr-Italic";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.title_info p:nth-child(2) {
+    font-family: "ImagoTTBoo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #757575;
+}
+
+.main_form {
+    width: 100%;
+    max-width: 665px;
+    margin: 50px auto;
+    padding: 0 10px 50px 10px;
+}
+
+.df_jc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step {
+    margin: 14px auto;
+}
+
+.error_input {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 0 0 auto;
+}
+
+.error_input p:nth-child(1) {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'ImagoTTBoo';
+    color: #CC0033;
+    margin: 8px 0;
+}
+
+.error_input p:nth-child(2) {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'ImagoTTBoo';
+    color: #333333;
+}
+
+.button_submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.button_submit button {
+    width: 100%;
+    max-width: 160px;
+    height: 100%;
+    max-height: 44px;
+    background: #0066CC;
+    border-radius: 4px;
+    font-family: 'ImagoTTBoo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 12px 22px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button_submit button:hover {
+    background-color: #093d72;
+}
+
+@media screen and (max-width: 668px) {
+    .step,
+    .error_input {
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 14px 0;
+    }
+    label {
+        margin: 14px 0;
+        max-width: 100%;
+    }
+    .title_info p:nth-child(2) {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0;
+    }
+    .title_info p:nth-child(1) {
+        margin: 0;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+
+/* ................... */
+
+.agreement {
+    background: #F6F6F6;
+    margin-bottom: -50px;
+}
+
+ul {
+    list-style: none;
+}
+
+#submitButtonReg.subButtonHover {
+    transition: 0.3s;
+    background-color: #103c68;
+    cursor: pointer;
+}
+
+.title_form h4 {
+    font-family: "MinionCyr-Italic";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    padding: 50px 0 30px 0;
+    margin: 0 auto;
+}
+
+.larg_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'ImagoTTBoo';
+    color: #333333;
+    width: 100%;
+    max-width: 655px;
+    height: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.form_checkbox {
+    margin: 20px 0 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.form_checkbox input {
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #0066CC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.form_checkbox label {
+    width: 100%;
+    max-width: unset;
+    font-family: 'ImagoTTBoo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.button_submit_reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_submit_reg button {
+    width: 241px;
+    height: 40px;
+    background: #0066CC;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    font-family: 'ImagoTTBoo';
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer_sing {
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.footer_sing p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'ImagoTTBoo';
+    color: #333333;
+    text-align: center;
+}
+
+@media screen and (max-width: 668px) {
+    .larg_text {
+        padding: 5px 5px 5px 0;
+        max-height: 420px;
+    }
+}
+
+
+/* /////////////////////// */
+
+.container_conf_reg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container_conf_reg h1 {
+    font-family: "ImagoTTBoo";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: #0066CC;
+}
+
+.container_conf_reg p {
+    font-family: 'ImagoTTMed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
+
+.check_num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check_num input {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 8px;
+    padding: 0;
+    text-align: center;
+}
+
+.button_confirmationRegistration {
+    margin: 50px auto 30px auto;
+}
+
+.button_confirmationRegistration button {
+    padding: 9px 30px;
+    width: 174px;
+    height: 40px;
+    background: #0066CC;
+    border-radius: 4px;
+    font-family: "ImagoTTBoo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.button_confirmationRegistration button:hover {
+    background-color: #103c68;
+}
+
+.pos_ab {
+    position: absolute;
+    bottom: 0;
+}
+
+.f_steps {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+
+.f_steps a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'ImagoTTBoo';
+    color: #333333;
+}
+
+.f_steps a:hover {
+    color: #fff;
+}
+
+@media screen and (max-height: 568px) {
+    .pos_ab {
+        position: relative;
+        bottom: 0;
+    }
+}
